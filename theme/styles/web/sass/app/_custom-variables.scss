@@ -1,0 +1,101 @@
+//== Gray Shades
+//## Different gray shades to be used for our variables and components
+$gray-darker:                           #141414 !default;
+$gray-dark:                             #666 !default;
+$gray:                                  #8f8f8f !default;
+$gray-light:                            #c5c5c5 !default;
+$gray-primary:                          #d7d7d7 !default;
+$gray-lighter:                          #e6e6e6 !default;
+
+
+//== Step 1: Brand Colors
+$brand-default:                         #002e5d !default;   
+$brand-primary:                         #0062b8 !default;    
+$brand-inverse:                         #fff !default; 
+$brand-info:                            #1fb3d1 !default;
+$brand-success:                         #10a170 !default;
+$brand-warning:                         #ffb700 !default;
+$brand-danger:                          #e61744 !default;
+
+$brand-default-darker:                  mix($brand-default, black, 60%) !default;
+$brand-default-dark:                    mix($brand-default, black, 70%) !default;
+$brand-default-light:                   mix($brand-default, white, 60%) !default;
+$brand-default-lighter:                 mix($brand-default, white, 20%) !default;
+
+$brand-inverse-darker:                  mix($brand-inverse, black, 60%) !default;    
+$brand-inverse-dark:                    mix($brand-inverse, black, 70%) !default;
+$brand-inverse-light:                   mix($brand-inverse, white, 60%) !default;
+$brand-inverse-lighter:                 mix($brand-inverse, white, 20%) !default;
+
+$brand-primary-darker:                  mix($brand-primary, black, 60%) !default;    
+$brand-primary-dark:                    mix($brand-primary, black, 70%) !default;
+$brand-primary-light:                   mix($brand-primary, white, 60%) !default;
+$brand-primary-lighter:                 mix($brand-primary, white, 20%) !default;
+
+$brand-info-darker:                     #006073 !default;  
+$brand-info-dark:                       #006073 !default;
+$brand-info-light:                      #b3f2ff !default;
+$brand-info-lighter:                    #b3f2ff !default;
+
+$brand-success-darker:                  mix($brand-success, black, 60%) !default;
+$brand-success-dark:                    mix($brand-success, black, 70%) !default;
+$brand-success-light:                   mix($brand-success, white, 60%) !default;
+$brand-success-lighter:                 mix($brand-success, white, 20%) !default;  
+
+$brand-warning-darker:                  mix($brand-warning, black, 60%) !default;   
+$brand-warning-dark:                    mix($brand-warning, black, 70%) !default;
+$brand-warning-light:                   mix($brand-warning, white, 60%) !default;
+$brand-warning-lighter:                 mix($brand-warning, white, 20%) !default;
+
+$brand-danger-darker:                   mix($brand-danger, black, 60%) !default;   
+$brand-danger-dark:                     mix($brand-danger, black, 70%) !default;
+$brand-danger-light:                    mix($brand-danger, white, 60%) !default;
+$brand-danger-lighter:                  mix($brand-danger, white, 20%) !default;
+
+$text-light:                            #fff;
+$text-dark:                             $gray-darker;
+
+
+$brand-logo:							false !default;
+$brand-logo-height:						26px !default;
+$brand-logo-width:						26px !default; // Only used for CSS brand logo
+
+
+
+
+
+//== Step 2: UI Customization
+
+// Default Font Size & Color
+$font-size-default:                     14px !default;
+$font-color-default:                    #555 !default;
+
+// Global Border Color
+$border-color-default:                  $gray-primary !default;
+$border-radius-default:                 2px !default;
+
+// Topbar
+$topbar-bg:                             $brand-default !default;
+$topbar-minimalheight:                  58px !default;
+$topbar-border-color:                   $border-color-default !default;
+
+// Topbar mobile
+$m-header-height:                    	45px !default;
+$m-header-bg:                           $topbar-bg !default;
+$m-header-color:                        #555 !default;
+$m-header-title-size:                   17px !default;
+
+
+// Sidebar
+$sidebar-bg:                            $brand-inverse !default;
+
+// Navbar Brand Name / For your company, product, or project name (used in layouts/base/)
+$navbar-brand-name:                     $font-color-default !default;
+
+// Background Colors
+$bg-color:                              #FFF !default;
+$bg-color-secondary:                    #F5F8FD !default; // Background color that is used for specific page templates background
+
+// Default Link Color
+$link-color:                            $brand-primary !default;
+$link-hover-color:                      darken($link-color, 15%) !default;
